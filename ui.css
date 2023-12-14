@@ -1,6 +1,19 @@
 body{
     background-image: url("Artboard 1.png");
+    background-size: 1370px;
+    background-repeat: no-repeat;
 }
 button{
     border-radius: 25px;
+}
+input{
+    border-radius: 25px;
+}
+div{
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }

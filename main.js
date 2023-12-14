@@ -1,7 +1,7 @@
 function calc_income_tax(){
     var income = document.getElementById("Income").value;
     if (income<=250000) {
-        document.getElementById("out").innerHTML = income;
+        document.getElementById("out").innerHTML = 0;
     }
     else if (income>250000 && income<=500000) {
         income = (5/100)*income;
