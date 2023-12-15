@@ -7,17 +7,20 @@ button{
     border-radius: 5px;
     height: 60px;
     width: 110px;
+    font-family: Roboto;
+    font-size: large;
 }
 input{
     border-radius: 5px;
     height: 35px;
     width: 310px;
     font-size: x-large;
+    font-family: Roboto;
 }
 div{
     height: 300px;
     width: 500px;
-    border: 2px solid;
+    border: 3px solid;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,7 +28,12 @@ div{
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    font-family: Roboto;
 }
 p{
     font-size: 35px;
+    font-family: Roboto;
+}
+h1{
+    font-family: cursive;
 }
